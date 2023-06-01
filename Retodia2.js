@@ -174,24 +174,27 @@ console.log(lastLetter);
 //11.Use console.log() y caracteres de escape para imprimir el siguiente patrón.
 
 /*1 1 1 1 1
-2 1 2 4 8
-3 1 3 9 27
-4 1 4 16 64
-5 1 5 25 125*/
+  2 1 2 4 8
+  3 1 3 9 27
+  4 1 4 16 64
+  5 1 5 25 125
+*/
 //console.log();
 
 //12.Usa substr para separar la frase porque porque porque de la siguiente oración:'No puedes terminar una oración con porque porque porque es una conjunción'
 
 let frase = "No puedes terminar una oración con porque porque porque es una conjunción";
-console.log(frase.substring(35, 20));
+console.log(frase.substring(35, 55));
 
 //ejercicios nivel 3
 
 //1.'El amor es lo mejor que hay en este mundo. Algunos encontraron su amor y algunos todavía están buscando su amor. Cuente el número de palabras de amor en esta oración. 
-
+let oración = 'El amor es lo mejor que hay en este mundo. Algunos encontraron su amor y algunos todavía están buscando su amor.';
+console.log(oración.search('amor'));
 
 //2. Usa match() para contar el número de todos los porque en la siguiente oración: 'No puedes terminar una oración con porque porque es una conjunción'
-
+let Oración = 'No puedes terminar una oración con porque porque es una conjunción';
+console.log(Oración.match('porque'));
 
 
 //3. Limpia el siguiente texto y encuentra la palabra más frecuente (pista, usa replace y expresiones regulares).
